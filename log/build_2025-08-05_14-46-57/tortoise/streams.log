@@ -1,0 +1,25 @@
+[1.491s] Invoking command in '/home/james/Tortoise/src/tortoise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/Tortoise/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/Tortoise/build/tortoise/build install --record /home/james/Tortoise/build/tortoise/install.log --single-version-externally-managed install_data
+[1.982s] running egg_info
+[2.004s] writing ../../build/tortoise/tortoise.egg-info/PKG-INFO
+[2.005s] writing dependency_links to ../../build/tortoise/tortoise.egg-info/dependency_links.txt
+[2.005s] writing entry points to ../../build/tortoise/tortoise.egg-info/entry_points.txt
+[2.005s] writing requirements to ../../build/tortoise/tortoise.egg-info/requires.txt
+[2.005s] writing top-level names to ../../build/tortoise/tortoise.egg-info/top_level.txt
+[2.079s] reading manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[2.080s] adding license file 'LICENSE'
+[2.081s] writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[2.081s] running build
+[2.081s] running build_py
+[2.081s] copying tortoise/motor_serial_node.py -> /home/james/Tortoise/build/tortoise/build/lib/tortoise
+[2.081s] running install
+[2.091s] running install_lib
+[2.115s] copying /home/james/Tortoise/build/tortoise/build/lib/tortoise/motor_serial_node.py -> /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise
+[2.116s] byte-compiling /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise/motor_serial_node.py to motor_serial_node.cpython-312.pyc
+[2.117s] running install_data
+[2.117s] running install_egg_info
+[2.168s] removing '/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info' (and everything under it)
+[2.168s] Copying ../../build/tortoise/tortoise.egg-info to /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info
+[2.169s] running install_scripts
+[2.443s] Installing motor_serial_node script to /home/james/Tortoise/install/tortoise/lib/tortoise
+[2.445s] writing list of installed files to '/home/james/Tortoise/build/tortoise/install.log'
+[2.501s] Invoked command in '/home/james/Tortoise/src/tortoise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/Tortoise/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/Tortoise/build/tortoise/build install --record /home/james/Tortoise/build/tortoise/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (tortoise) JobQueued: {'identifier': 'tortoise', 'dependencies': OrderedDict()}
+[0.001183] (tortoise) JobStarted: {'identifier': 'tortoise'}
+[0.100125] (-) TimerEvent: {}
+[0.200622] (-) TimerEvent: {}
+[0.300923] (-) TimerEvent: {}
+[0.401394] (-) TimerEvent: {}
+[0.501843] (-) TimerEvent: {}
+[0.602316] (-) TimerEvent: {}
+[0.702786] (-) TimerEvent: {}
+[0.803266] (-) TimerEvent: {}
+[0.903770] (-) TimerEvent: {}
+[0.929927] (tortoise) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tortoise', 'build', '--build-base', '/home/james/Tortoise/build/tortoise/build', 'install', '--record', '/home/james/Tortoise/build/tortoise/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/james/Tortoise/src/tortoise', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'james', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/james', 'OLDPWD': '/home/james/Tortoise/src/tortoise/tortoise', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2526', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/james/Tortoise/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'james', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'james', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/james-laptop:@/tmp/.ICE-unix/2485,unix/james-laptop:/tmp/.ICE-unix/2485', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e75d80f5_b7f1_41ac_94bf_9499dd3b07e0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VMKXA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/james/Tortoise/install/tortoise:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/james/Tortoise/build/tortoise', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/james/Tortoise/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.004022] (-) TimerEvent: {}
+[1.104481] (-) TimerEvent: {}
+[1.205059] (-) TimerEvent: {}
+[1.232052] (tortoise) StdoutLine: {'line': b'running egg_info\n'}
+[1.251863] (tortoise) StdoutLine: {'line': b'writing ../../build/tortoise/tortoise.egg-info/PKG-INFO\n'}
+[1.252299] (tortoise) StdoutLine: {'line': b'writing dependency_links to ../../build/tortoise/tortoise.egg-info/dependency_links.txt\n'}
+[1.252466] (tortoise) StdoutLine: {'line': b'writing entry points to ../../build/tortoise/tortoise.egg-info/entry_points.txt\n'}
+[1.252535] (tortoise) StdoutLine: {'line': b'writing requirements to ../../build/tortoise/tortoise.egg-info/requires.txt\n'}
+[1.252615] (tortoise) StdoutLine: {'line': b'writing top-level names to ../../build/tortoise/tortoise.egg-info/top_level.txt\n'}
+[1.289298] (tortoise) StdoutLine: {'line': b"reading manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'\n"}
+[1.289534] (tortoise) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.289894] (tortoise) StdoutLine: {'line': b"writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'\n"}
+[1.290225] (tortoise) StdoutLine: {'line': b'running build\n'}
+[1.290366] (tortoise) StdoutLine: {'line': b'running build_py\n'}
+[1.290595] (tortoise) StdoutLine: {'line': b'copying tortoise/motor_serial_node.py -> /home/james/Tortoise/build/tortoise/build/lib/tortoise\n'}
+[1.290732] (tortoise) StdoutLine: {'line': b'running install\n'}
+[1.298285] (tortoise) StdoutLine: {'line': b'running install_lib\n'}
+[1.305239] (-) TimerEvent: {}
+[1.320296] (tortoise) StdoutLine: {'line': b'copying /home/james/Tortoise/build/tortoise/build/lib/tortoise/motor_serial_node.py -> /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise\n'}
+[1.321197] (tortoise) StdoutLine: {'line': b'byte-compiling /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise/motor_serial_node.py to motor_serial_node.cpython-312.pyc\n'}
+[1.322181] (tortoise) StdoutLine: {'line': b'running install_data\n'}
+[1.322364] (tortoise) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.346426] (tortoise) StdoutLine: {'line': b"removing '/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.346841] (tortoise) StdoutLine: {'line': b'Copying ../../build/tortoise/tortoise.egg-info to /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info\n'}
+[1.347629] (tortoise) StdoutLine: {'line': b'running install_scripts\n'}
+[1.405479] (-) TimerEvent: {}
+[1.489344] (tortoise) StdoutLine: {'line': b'Installing motor_serial_node script to /home/james/Tortoise/install/tortoise/lib/tortoise\n'}
+[1.489741] (tortoise) StdoutLine: {'line': b"writing list of installed files to '/home/james/Tortoise/build/tortoise/install.log'\n"}
+[1.505711] (-) TimerEvent: {}
+[1.528748] (tortoise) CommandEnded: {'returncode': 0}
+[1.545505] (tortoise) JobEnded: {'identifier': 'tortoise', 'rc': 0}
+[1.546641] (-) EventReactorShutdown: {}

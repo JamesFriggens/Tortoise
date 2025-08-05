@@ -1,0 +1,22 @@
+[0.945s] Invoking command in '/home/james/Tortoise/src/tortoise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/Tortoise/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/Tortoise/build/tortoise/build install --record /home/james/Tortoise/build/tortoise/install.log --single-version-externally-managed install_data
+[1.271s] running egg_info
+[1.288s] writing ../../build/tortoise/tortoise.egg-info/PKG-INFO
+[1.289s] writing dependency_links to ../../build/tortoise/tortoise.egg-info/dependency_links.txt
+[1.289s] writing entry points to ../../build/tortoise/tortoise.egg-info/entry_points.txt
+[1.289s] writing requirements to ../../build/tortoise/tortoise.egg-info/requires.txt
+[1.289s] writing top-level names to ../../build/tortoise/tortoise.egg-info/top_level.txt
+[1.332s] reading manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[1.332s] adding license file 'LICENSE'
+[1.333s] writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[1.333s] running build
+[1.333s] running build_py
+[1.334s] running install
+[1.342s] running install_lib
+[1.362s] running install_data
+[1.362s] running install_egg_info
+[1.382s] removing '/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info' (and everything under it)
+[1.382s] Copying ../../build/tortoise/tortoise.egg-info to /home/james/Tortoise/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info
+[1.383s] running install_scripts
+[1.525s] Installing motor_serial_node script to /home/james/Tortoise/install/tortoise/lib/tortoise
+[1.526s] writing list of installed files to '/home/james/Tortoise/build/tortoise/install.log'
+[1.564s] Invoked command in '/home/james/Tortoise/src/tortoise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/Tortoise/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Tortoise/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/Tortoise/build/tortoise/build install --record /home/james/Tortoise/build/tortoise/install.log --single-version-externally-managed install_data
