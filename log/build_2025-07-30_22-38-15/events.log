@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000899] (tortoise) JobQueued: {'identifier': 'tortoise', 'dependencies': OrderedDict()}
+[0.001686] (tortoise) JobStarted: {'identifier': 'tortoise'}
+[0.099260] (-) TimerEvent: {}
+[0.199814] (-) TimerEvent: {}
+[0.300485] (-) TimerEvent: {}
+[0.401076] (-) TimerEvent: {}
+[0.501618] (-) TimerEvent: {}
+[0.602184] (-) TimerEvent: {}
+[0.702703] (-) TimerEvent: {}
+[0.803348] (-) TimerEvent: {}
+[0.904115] (-) TimerEvent: {}
+[1.004737] (-) TimerEvent: {}
+[1.105325] (-) TimerEvent: {}
+[1.205858] (-) TimerEvent: {}
+[1.306477] (-) TimerEvent: {}
+[1.407262] (-) TimerEvent: {}
+[1.507770] (-) TimerEvent: {}
+[1.608310] (-) TimerEvent: {}
+[1.708854] (-) TimerEvent: {}
+[1.809517] (-) TimerEvent: {}
+[1.910058] (-) TimerEvent: {}
+[2.010532] (-) TimerEvent: {}
+[2.111065] (-) TimerEvent: {}
+[2.211575] (-) TimerEvent: {}
+[2.312066] (-) TimerEvent: {}
+[2.412552] (-) TimerEvent: {}
+[2.513061] (-) TimerEvent: {}
+[2.613587] (-) TimerEvent: {}
+[2.714274] (-) TimerEvent: {}
+[2.815526] (-) TimerEvent: {}
+[2.916566] (-) TimerEvent: {}
+[2.989071] (tortoise) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tortoise', 'build', '--build-base', '/home/james/ros2_ws/build/tortoise/build', 'install', '--record', '/home/james/ros2_ws/build/tortoise/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/james/ros2_ws/src/tortoise', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'james', 'SSH_CLIENT': '192.168.1.136 53022 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/james', 'OLDPWD': '/home/james/ros2_ws/src/tortoise/tortoise', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/james/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'james', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/james/ros2_ws/install/tortoise:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/james/ros2_ws/build/tortoise', 'SSH_CONNECTION': '192.168.1.136 53022 192.168.1.137 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/james/ros2_ws/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages:/home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.016780] (-) TimerEvent: {}
+[3.117515] (-) TimerEvent: {}
+[3.218119] (-) TimerEvent: {}
+[3.318658] (-) TimerEvent: {}
+[3.419216] (-) TimerEvent: {}
+[3.519760] (-) TimerEvent: {}
+[3.620323] (-) TimerEvent: {}
+[3.720831] (-) TimerEvent: {}
+[3.821382] (-) TimerEvent: {}
+[3.921886] (-) TimerEvent: {}
+[3.958100] (tortoise) StdoutLine: {'line': b'running egg_info\n'}
+[4.019404] (tortoise) StdoutLine: {'line': b'writing ../../build/tortoise/tortoise.egg-info/PKG-INFO\n'}
+[4.020503] (tortoise) StdoutLine: {'line': b'writing dependency_links to ../../build/tortoise/tortoise.egg-info/dependency_links.txt\n'}
+[4.022017] (-) TimerEvent: {}
+[4.027313] (tortoise) StdoutLine: {'line': b'writing entry points to ../../build/tortoise/tortoise.egg-info/entry_points.txt\n'}
+[4.028123] (tortoise) StdoutLine: {'line': b'writing requirements to ../../build/tortoise/tortoise.egg-info/requires.txt\n'}
+[4.028904] (tortoise) StdoutLine: {'line': b'writing top-level names to ../../build/tortoise/tortoise.egg-info/top_level.txt\n'}
+[4.122175] (-) TimerEvent: {}
+[4.159896] (tortoise) StdoutLine: {'line': b"reading manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'\n"}
+[4.161406] (tortoise) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.163510] (tortoise) StdoutLine: {'line': b"writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'\n"}
+[4.164143] (tortoise) StdoutLine: {'line': b'running build\n'}
+[4.164652] (tortoise) StdoutLine: {'line': b'running build_py\n'}
+[4.165125] (tortoise) StdoutLine: {'line': b'copying tortoise/motor_serial_node.py -> /home/james/ros2_ws/build/tortoise/build/lib/tortoise\n'}
+[4.166674] (tortoise) StdoutLine: {'line': b'running install\n'}
+[4.191097] (tortoise) StdoutLine: {'line': b'running install_lib\n'}
+[4.222307] (-) TimerEvent: {}
+[4.254532] (tortoise) StdoutLine: {'line': b'copying /home/james/ros2_ws/build/tortoise/build/lib/tortoise/motor_serial_node.py -> /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise\n'}
+[4.257373] (tortoise) StdoutLine: {'line': b'byte-compiling /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise/motor_serial_node.py to motor_serial_node.cpython-312.pyc\n'}
+[4.260060] (tortoise) StdoutLine: {'line': b'running install_data\n'}
+[4.260729] (tortoise) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.322450] (-) TimerEvent: {}
+[4.327966] (tortoise) StdoutLine: {'line': b"removing '/home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.329635] (tortoise) StdoutLine: {'line': b'Copying ../../build/tortoise/tortoise.egg-info to /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info\n'}
+[4.334721] (tortoise) StdoutLine: {'line': b'running install_scripts\n'}
+[4.422615] (-) TimerEvent: {}
+[4.523160] (-) TimerEvent: {}
+[4.623768] (-) TimerEvent: {}
+[4.724320] (-) TimerEvent: {}
+[4.814801] (tortoise) StdoutLine: {'line': b'Installing motor_serial_node script to /home/james/ros2_ws/install/tortoise/lib/tortoise\n'}
+[4.816356] (tortoise) StdoutLine: {'line': b"writing list of installed files to '/home/james/ros2_ws/build/tortoise/install.log'\n"}
+[4.824611] (-) TimerEvent: {}
+[4.925682] (-) TimerEvent: {}
+[4.965737] (tortoise) CommandEnded: {'returncode': 0}
+[5.011425] (tortoise) JobEnded: {'identifier': 'tortoise', 'rc': 0}
+[5.014067] (-) EventReactorShutdown: {}

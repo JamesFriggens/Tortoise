@@ -1,0 +1,2 @@
+[console_scripts]
+motor_serial_node = tortoise.motor_serial_node:main

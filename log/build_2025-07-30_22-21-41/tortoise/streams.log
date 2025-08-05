@@ -1,0 +1,38 @@
+[3.273s] Invoking command in '/home/james/ros2_ws/src/tortoise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/ros2_ws/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/ros2_ws/build/tortoise/build install --record /home/james/ros2_ws/build/tortoise/install.log --single-version-externally-managed install_data
+[4.322s] running egg_info
+[4.324s] creating ../../build/tortoise/tortoise.egg-info
+[4.389s] writing ../../build/tortoise/tortoise.egg-info/PKG-INFO
+[4.390s] writing dependency_links to ../../build/tortoise/tortoise.egg-info/dependency_links.txt
+[4.390s] writing entry points to ../../build/tortoise/tortoise.egg-info/entry_points.txt
+[4.391s] writing requirements to ../../build/tortoise/tortoise.egg-info/requires.txt
+[4.391s] writing top-level names to ../../build/tortoise/tortoise.egg-info/top_level.txt
+[4.392s] writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[4.523s] reading manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[4.524s] adding license file 'LICENSE'
+[4.526s] writing manifest file '../../build/tortoise/tortoise.egg-info/SOURCES.txt'
+[4.527s] running build
+[4.527s] running build_py
+[4.528s] creating /home/james/ros2_ws/build/tortoise/build
+[4.528s] creating /home/james/ros2_ws/build/tortoise/build/lib
+[4.529s] creating /home/james/ros2_ws/build/tortoise/build/lib/tortoise
+[4.529s] copying tortoise/motor_serial_node.py -> /home/james/ros2_ws/build/tortoise/build/lib/tortoise
+[4.530s] copying tortoise/__init__.py -> /home/james/ros2_ws/build/tortoise/build/lib/tortoise
+[4.531s] running install
+[4.556s] running install_lib
+[4.631s] creating /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise
+[4.632s] copying /home/james/ros2_ws/build/tortoise/build/lib/tortoise/motor_serial_node.py -> /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise
+[4.633s] copying /home/james/ros2_ws/build/tortoise/build/lib/tortoise/__init__.py -> /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise
+[4.635s] byte-compiling /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise/motor_serial_node.py to motor_serial_node.cpython-312.pyc
+[4.638s] byte-compiling /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise/__init__.py to __init__.cpython-312.pyc
+[4.639s] running install_data
+[4.640s] creating /home/james/ros2_ws/install/tortoise/share/ament_index
+[4.641s] creating /home/james/ros2_ws/install/tortoise/share/ament_index/resource_index
+[4.641s] creating /home/james/ros2_ws/install/tortoise/share/ament_index/resource_index/packages
+[4.642s] copying resource/tortoise -> /home/james/ros2_ws/install/tortoise/share/ament_index/resource_index/packages
+[4.642s] copying package.xml -> /home/james/ros2_ws/install/tortoise/share/tortoise
+[4.643s] running install_egg_info
+[4.721s] Copying ../../build/tortoise/tortoise.egg-info to /home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages/tortoise-0.0.0-py3.12.egg-info
+[4.728s] running install_scripts
+[5.416s] Installing motor_serial_node script to /home/james/ros2_ws/install/tortoise/lib/tortoise
+[5.418s] writing list of installed files to '/home/james/ros2_ws/build/tortoise/install.log'
+[5.578s] Invoked command in '/home/james/ros2_ws/src/tortoise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/james/ros2_ws/build/tortoise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/ros2_ws/install/tortoise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tortoise build --build-base /home/james/ros2_ws/build/tortoise/build install --record /home/james/ros2_ws/build/tortoise/install.log --single-version-externally-managed install_data
